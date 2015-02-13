@@ -1,11 +1,7 @@
-* Maven plugins, [documentation](http://evgeny-goldin.com/wiki/Maven-plugins).
+This is a fork of maven-plugins https://github.com/evgeny-goldin/maven-plugins to solve https://github.com/evgeny-goldin/maven-plugins/issues/10.
 
-* <a href="http://evgeny-goldin.org/teamcity/viewType.html?buildTypeId=bt4&tab=buildTypeStatusDiv&guest=1"><img src="http://evgeny-goldin.org/teamcity/app/rest/builds/buildType:(id:bt4)/statusIcon"/></a>
+This fork's focus is copy-maven-plugin only. All other plugins in this project are not respected.
 
-* [Issue tracker](http://evgeny-goldin.org/youtrack/issues/pl).
+**Supports Maven 3 and upwards!**
 
-* **Only Maven 3 is supported!**
-
-* Run `"mvn -s settings.xml clean install"` to build and install plugins into your local Maven repository.
-
-* Run `"mvn -s settings.xml clean install -Dsilence"` to build and install plugins with Maven logging minimized.
+Run `"mvn -s settings.xml clean install"` to build and install plugins into your local Maven repository.
